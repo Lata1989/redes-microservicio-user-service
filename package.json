@@ -1,0 +1,22 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "user-service/\r │\r ├── src/\r │   ├── config/\r │   │   └── database.js      # Configuración de la conexión a la base de datos\r │   ├── controllers/\r │   │   └── userController.js # Lógica para la gestión de usuarios\r │   ├── routes/\r │   │   └── userRoutes.js    # Rutas relacionadas con usuarios\r │   ├── app.js               # Configuración de la app Express\r │   └── server.js            # Punto de entrada del servidor\r │\r ├── .env                     # Variables de entorno\r └── package.json             # Dependencias y scripts",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
