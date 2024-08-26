@@ -10,4 +10,10 @@ app.use(bodyParser.json());
 // Usar las rutas de usuario
 app.use('/users', userRoutes);
 
+// Ruta raíz
+app.get('/', (req, res) => {
+    res.send('Microservicio de autenticacion funcionando OK!');
+});
+
+
 export default app;
