@@ -12,7 +12,7 @@ app.use('/users', userRoutes);
 
 // Ruta raíz
 app.get('/', (req, res) => {
-    res.send('Microservicio de autenticacion funcionando OK!');
+    res.send('Microservicio de usuario funcionando OK!');
 });
 
 
